@@ -1,0 +1,129 @@
+{
+    "intents": [
+      {
+        "name": "How To Purchase A Pass",
+        "examples": [
+          "How can I buy a parking pass?",
+          "Purchase a parking pass",
+          "Buy a pass without a ticket",
+          "Change to a weekly pass"
+        ],
+        "responses": [
+          "To purchase a pass without a ticket, press the 'Pass' button on the screen. You can change the pass type to daily, weekly, or monthly by pressing the 'Next' button."
+        ],
+        "context": ""
+      },
+      {
+        "name": "Lost/Missing Ticket",
+        "examples": [
+          "I lost my parking ticket",
+          "What do I do if I can't find my ticket?",
+          "Charge for a lost ticket"
+        ],
+        "responses": [
+          "If you've lost your ticket, you can purchase a replacement from the pay station. Please note that you will be charged for the maximum time."
+        ],
+        "context": ""
+      },
+      {
+        "name": "Ticket Is Unreadable",
+        "examples": [
+          "My parking ticket is not readable",
+          "Ticket won't scan",
+          "Can't read my parking pass"
+        ],
+        "responses": [
+          "Please try again and ensure the ticket is inserted properly. If it's still unreadable, try another exit or pay station. If the ticket still doesn't work, visit an attendant at the site office."
+        ],
+        "context": ""
+      },
+      {
+        "name": "Have you been here more than 3 hours?",
+        "examples": [
+          "Have I exceeded the parking time limit?",
+          "What if I've been here for over 3 hours?"
+        ],
+        "responses": [
+          "If you've been parked for more than 3 hours, please purchase a lost ticket from the pay station and use that to exit."
+        ],
+        "context": ""
+      },
+      {
+        "name": "Pass Is Unreadable",
+        "examples": [
+          "My parking pass is not scanning",
+          "Can't read my monthly pass"
+        ],
+        "responses": [
+          "If your parking pass is unreadable, please try another exit, or visit an attendant at the site office for assistance."
+        ],
+        "context": ""
+      },
+      {
+        "name": "Does the screen state BAD I/O?",
+        "examples": [
+          "The screen says BAD I/O, what should I do?",
+          "Error message BAD I/O"
+        ],
+        "responses": [
+          "If the screen shows BAD I/O, please ensure you are following the proper entry and exit procedure. The pass must be used for both entry and exit."
+        ],
+        "context": ""
+      },
+      {
+        "name": "Machine Issues",
+        "examples": [
+          "Machine will not give out a ticket",
+          "Machine will not accept ticket",
+          "Machine will not accept credit card",
+          "Credit card is stuck in the machine"
+        ],
+        "responses": [
+          "If you're facing machine issues, please follow these steps: [Provide guidance based on the specific issue]. If the problem persists, visit an attendant at the site office."
+        ],
+        "context": ""
+      },
+      {
+        "name": "Payment Issues",
+        "examples": [
+          "Credit card placement",
+          "Banknote/bill placement",
+          "Change has not been dispensed",
+          "Missing receipt",
+          "Credit card is unreadable",
+          "Using a different credit card than was used for entry"
+        ],
+        "responses": [
+          "For payment-related issues, please follow these steps: [Provide guidance based on the specific issue]. If you encounter any problems, visit an attendant at the site office."
+        ],
+        "context": ""
+      },
+      {
+        "name": "Gate Issues",
+        "examples": [
+          "Ticket was paid for, but the gate will not open",
+          "It does not say 'Paid' on the ticket?",
+          "Gate accepts ticket but does not open",
+          "Gate won't open and no ticket returned",
+          "Credit card inserted but gate will not open"
+        ],
+        "responses": [
+          "If you're experiencing gate issues, please follow these steps: [Provide guidance based on the specific issue]. If the problem persists, visit an attendant at the site office."
+        ],
+        "context": ""
+      },
+      {
+        "name": "Other Issues",
+        "examples": [
+          "Cannot hear operator/operator cannot hear you",
+          "Delivery access",
+          "Damaged machine/vandalism"
+        ],
+        "responses": [
+          "For other issues, please follow these steps: [Provide guidance based on the specific issue]. If needed, visit an attendant at the site office."
+        ],
+        "context": ""
+      }
+    ]
+  }
+  
